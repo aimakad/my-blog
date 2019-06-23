@@ -1,0 +1,14 @@
+//Импорт общих стилей
+@import "./components/common";
+
+//Импорт шрифтов
+@import "./components/fonts";
+
+//Импорт стилей страниц
+@import "./pages/index";
+@import "./pages/contacts";
+@import "./pages/story";
+
+//Импорт компонентов для страниц
+@import "./components/header";
+@import "./components/footer";
