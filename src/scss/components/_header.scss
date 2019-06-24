@@ -2,25 +2,26 @@
   background: #FFFFFF;  
 
   &__content {
-    margin: 24px 0 48px 0;
+    margin: 35px 0;
     box-sizing: border-box;
   }
 
   &__brand {
-    font-weight: bold;
-    font-size: 48px;
-    text-transform: uppercase;
-    margin-bottom: 16px;
+    // background: url('./img/mailchimp_2018_logo_before_after_a.png') no-repeat left/contain;  
+    margin-bottom: 21px;  
   }
-
   &__link {
     font-weight: 300;
     font-size: 36px;
-    line-height: 54px;
+    // line-height: 54px;
     color: #000000;
+    margin-right: 23px;
+    line-height: 149.8%;
   }
 
-  &__link_italic{
-    font-style: italic;
+  &__link_space{
+    // font-style: italic;
+    margin-right: 19px;
+    margin-top: 21px;
   }
 }

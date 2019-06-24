@@ -54,6 +54,7 @@ function img() {
 function clean() {
   return del(['./build/*'])
 }
+
 //Просматривать файлы
 function watch() {
   browserSync.init({
@@ -65,6 +66,8 @@ function watch() {
   gulp.watch('./src/scss/**/*.scss', scss)
   //Следить за JS файлами
   gulp.watch('./src/js/*.js', js)
+  //Следить за Img файлами
+  gulp.watch('./src/image/*', img)
   //При изменении HTML запустить синхронизацию
   gulp.watch([
     "./src/html/components/*.html",
