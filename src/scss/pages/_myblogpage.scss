@@ -1,0 +1,43 @@
+.myblog {
+    background: #FFE01B;
+    padding: 50px 0;
+
+    &__part_one {
+        padding: 70px 0 53px 0;
+    }
+
+    &__title_one {
+        font-weight: bold;
+        font-size: 48px;
+    }
+
+    &__title_two {
+        font-weight: bold;
+        font-size: 36px;
+    }
+
+    &__image {
+        padding: 40px 0 35px 0;
+    }
+
+    &__text_one {
+        font-weight: bold;
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
+    &__text_two {
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    &__part_two {
+        padding: 47px 0 0 0;
+    }
+
+    &__line {
+        border: 1px solid #000000;
+        transform: rotate(0.14deg);
+    }    
+}
+
