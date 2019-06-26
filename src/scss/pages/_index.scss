@@ -9,13 +9,14 @@
 
   &__title {
     padding: 35px 0 22px 0;
-    font-weight: bold;
-    font-size: 48px;
+    // font-weight: bold;
+    @extend .font_bold;
+    font-size: $font48;
   }
 
   &__text {
     font-weight: 300;
-    font-size: 48px;
+    font-size: $font48;
   }
 }
 
@@ -34,13 +35,13 @@
 
   &__title {
     padding-bottom: 22px;
-    font-weight: bold;
-    font-size: 48px;
+    @extend .font_bold;
+    font-size: $font48;
   }
 
   &__link {
     font-weight: 300;
-    font-size: 48px;
+    font-size: $font48;
     color: #FFFFFF;
   }
 }

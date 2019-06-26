@@ -7,13 +7,13 @@
     }
 
     &__title_one {
-        font-weight: bold;
-        font-size: 48px;
+        @extend .font_bold;
+        font-size: $font48;
     }
 
     &__title_two {
-        font-weight: bold;
-        font-size: 36px;
+        @extend .font_bold;
+        font-size: $font36;
     }
 
     &__image {
@@ -21,18 +21,18 @@
     }
 
     &__text_one {
-        font-weight: bold;
-        font-size: 18px;
+        @extend .font_bold;
+        font-size: $font18;
         padding-bottom: 20px;
     }
 
     &__text_two {
-        font-weight: bold;
-        font-size: 18px;
+        @extend .font_bold;
+        font-size: $font18;
     }
 
     &__part_two {
-        padding: 47px 0 0 0;
+        padding-top: 47px;
     }
 
     &__line {

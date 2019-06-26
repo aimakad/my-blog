@@ -1,3 +1,11 @@
+$font18: 18px;
+$font36: 36px;
+$font48: 48px;
+
+.font_bold {
+  font-weight: bold; //для изменения начертания единоразово по всей странице либо вернуть font-weight: bold;
+}
+
 body {
   margin: 0;
   font-family: 
