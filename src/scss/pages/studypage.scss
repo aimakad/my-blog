@@ -1,0 +1,40 @@
+.flex {
+  background-color: red;
+
+
+  &__content {
+    // padding: 20px 0;
+    background-color: green;
+    display: flex;
+    // flex-direction: column;
+    // // justify-content: center;//выравнивание 
+    // justify-content: space-evenly;//то что нужно в дз 
+    // // flex-direction: column-reverse;
+    height: 150px;
+    align-items: flex-end;
+  }
+
+  &__logo {
+    background-color: blue;
+    // margin: 10px;
+    width: 150px;
+    height: 70px;
+  }
+
+  &__links {
+    display: flex;
+    // flex-direction: ;
+    // background-color: yellow;
+    // margin: 10px;
+    align-self: flex-start;
+  }
+
+  &__link {
+    // margin: 0 10px;
+    background-color: white;
+    width: 150px;
+    height: fit-content;
+  }
+
+
+}
