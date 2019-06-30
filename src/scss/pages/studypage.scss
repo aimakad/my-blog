@@ -11,12 +11,17 @@
     // justify-content: space-evenly;//то что нужно в дз 
     // // flex-direction: column-reverse;
     height: 150px;
-    align-items: flex-end;
+    // align-items: flex-end;
+    // align-items: center;
+    flex-wrap: nowrap;
+    // justify-content: space-between;
   }
 
   &__logo {
     background-color: blue;
     // margin: 10px;
+    justify-content: right;
+
     width: 150px;
     height: 70px;
   }
@@ -26,7 +31,7 @@
     // flex-direction: ;
     // background-color: yellow;
     // margin: 10px;
-    align-self: flex-start;
+    // align-self: flex-start;
   }
 
   &__link {
