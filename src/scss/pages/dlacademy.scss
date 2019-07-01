@@ -1,0 +1,18 @@
+.dl-academy {
+    background: chocolate;
+
+    &__transform-block {
+        background-color: crimson;
+        width: 300px;
+        height: 200px;
+
+        &:hover {
+            // transform: scale(15%);
+            // rotate: 
+            transform: scewX (45deg);
+        }
+    }
+
+    // transform: 
+
+}
